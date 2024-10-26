@@ -13,7 +13,7 @@ const app = express();
 // Use CORS with options
 const corsOptions = {
     origin: [
-        // 'https://react-frontend-ir9q.onrender.com', // Your production frontend
+        'https://mess-frond.onrender.com',
         'http://localhost:5173' // Your local frontend for development
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed methods
